@@ -1,0 +1,370 @@
+---
+format: 
+  revealjs: 
+    logo: abc-program-icon.png
+    slide-number: true
+---
+
+##  {background-image="title-slide.png" background-size="1200px"}
+
+## The Primary Questions
+:::{.incremental}
+
+1. Which species are at risk? 
+
+\ 
+
+2. How big is that risk?  
+
+\ 
+
+3. How can we mitigate that risk?
+:::
+
+## Ecological Forecasting
+
+-   We can't predict the future
+
+-   **Stochasticity** and **uncertainty** are inherent in the system
+
+:::::: columns
+::: {.column width="40%"}
+![](yoda.png)
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="50%"}
+**Sub-question 1:**
+
+-   How do environmental **stochasticity** and climate change **uncertainty** affect estimates of **risk** to biodiversity?
+:::
+::::::
+
+## Defining Terms
+:::{.incremental}
+
+- **Risk:** the probability of unwanted consequences resulting from a specific action
+
+- **Stochasticity:** when the outcome of a process is not entirely predictable
+
+- **Uncertainty:** what we don’t know, or can’t predict 
+  - Outcomes 
+  - **Assumptions** about how the system works
+
+- **Sensitivity:** The degree to which a change in **assumptions** affects estimates of risk
+:::
+
+## Objectives 
+
+- Examine uncertainty from: 
+
+  - Spatio-temporal variability in wildfire 
+  
+  - Effects of increasing wildfire from climate change 
+  
+  - Stochasticity in seismic line regeneration 
+  
+\ 
+  
+- See how these uncertainties affect estimates of breeding habitat availability for migratory songbirds 
+
+
+
+## State-and-transition Simulation Models (STSM)
+
+::::: columns
+::: {.column width="50%"}
+-   Do this many times to quantify uncertainty
+
+![](dice.png)
+:::
+
+::: {.column width="50%"}
+![](stsm.png)
+:::
+:::::
+
+::: {footer}
+Daniel et al. 2016 *in Methods in Ecology and Evolution*
+:::
+
+## State-and-transition Simulation Models (STSM)
+
+::::: columns
+::: {.column width="50%"}
+-   Do this many times to quantify uncertainty
+
+![](density.png)
+:::
+
+::: {.column width="50%"}
+![](stsm.png)
+:::
+:::::
+
+::: {footer}
+Daniel et al. 2016 *in Methods in Ecology and Evolution*
+:::
+
+## Study Area
+
+![](3_outputs/figures/study-area.png)
+
+## 9 Vegetation Types + Wetlands
+
+![](land-cover.png)
+
+## Transition Pathways
+
+::::: columns
+::: {.column width="25%"}
+3 Moisture regimes
+
+3 possible transition pathways
+:::
+
+::: {.column width="75%"}
+![](3_outputs/figures/transition-pathways.png)
+:::
+:::::
+
+## Transition Pathways
+
+::::: columns
+::: {.column width="25%"}
+3 Moisture regimes
+
+3 possible transition pathways
+:::
+
+::: {.column width="75%"}
+![](3_outputs/figures/transition-pathways-2.png)
+:::
+:::::
+
+## Transition Probabilities
+
+-   Succession
+    -   Adapted from CFS work (Diana Stralberg’s team)
+-   Fire
+    -   Derived from Cumming (2006) & CFS work
+-   Harvest
+    -   Derived from Al-Pac FMP
+    -   Used growth and yield curves and AAC
+
+## Anthropogenic Disturbance
+
+-   Baseline Disturbances:
+    -   Residential, agriculture, major roads, railways
+-   Oil Sands Disturbance
+    -   Hard disturbances
+        -   Industrial sites, mines, etc…
+    -   Soft disturbances
+        -   Seismic lines, well pads, minor roads, pipelines
+
+## Scenarios
+
+![](3_outputs/tables/scenarios.png)
+
+## Seismic Line Regeneration
+
+-   Used Alberta ecosite classes and Lidar data to create simple models of the annual probability of a seismic line becoming regenerated.  
+\  
+
+-   Regenerated was defined as having a canopy height of 3m (sensu van Rensen et al. 2015) 
+
+\ 
+
+- Erased due to fire or harvest 
+
+## Species-habitat Models
+
+![](3_outputs/figures/spp_models.png)
+
+::: {footer}
+Photos and graphics from All About Birds website: https://www.allaboutbirds.org/news/
+:::
+
+## We Looked at 3 Metrics
+
+1.  Deterministic estimates of future populations  
+\ 
+
+2.  Risk of population decline relative to baseline scenario  
+\ 
+
+3.  Risk of declines between 2% and 20%, relative to baseline scenario 
+
+
+## Results: Annual Area Burned 
+
+![](3_outputs/figures/annual-area-burned.png)
+
+## Results: Potential Population Change (50 years) 
+
+![](3_outputs/figures/delta_pop.png)
+
+## Results: Maps of Mean Predictions (Ovenbird)
+
+![](3_outputs/figures/oven-maps.png)
+
+
+## Population Forecast: Ovenbird
+
+:::::: panel-tabset
+## Deterministic
+
+![](3_outputs/figures/oven_diffplot.png)
+
+## Probabilistic
+
+::::: columns
+::: {.column width="50%"}
+![](3_outputs/figures/oven_density.png)
+:::
+
+::: {.column width="50%"}
+![](3_outputs/tables/oven-table.png)
+:::
+:::::
+::::::
+
+## Probability of Percentage Decline
+
+![](3_outputs/tables/oven-table.png){width="700px"}
+
+![](3_outputs/figures/oven_decline.png)
+
+## Probability of Percentage Decline
+
+![](3_outputs/tables/oven-table.png){width="700px"}
+
+![](3_outputs/figures/oven_decline_5pct.png)
+
+## Population Forecast: Alder Flycatcher
+
+:::::: panel-tabset
+## Deterministic
+
+![](3_outputs/figures/alfl_diffplot.png)
+
+## Probabilistic
+
+::::: columns
+::: {.column width="50%"}
+![](3_outputs/figures/alfl_density.png)
+:::
+
+::: {.column width="50%"}
+![](3_outputs/tables/alfl-table.png)
+:::
+:::::
+::::::
+
+## Probability of Percentage Decline
+
+![](3_outputs/tables/alfl-table.png){width="700px"}
+
+![](3_outputs/figures/alfl_decline.png) 
+
+## Other Forest Species 
+:::: columns 
+:::{.column width="50%"}
+
+Swainson's Thrush
+![](3_outputs/tables/swth-table.png)
+
+![](3_outputs/figures/swth_decline.png) 
+:::
+
+:::{.column width="50%"}
+Ruby-crowned Kinglet 
+![](3_outputs/tables/rcki-table.png)
+
+![](3_outputs/figures/rcki_decline.png)
+:::
+
+::::
+
+## Key Takeaways 
+
+1. Forest species at high risk of decline 
+
+\ 
+
+2. Climate change greatly increases uncertainty 
+
+\ 
+
+![](3_outputs/figures/birds-horizontal.png)
+
+
+## Seismic Restoration Scenario (Sensitivity Analysis)
+
+![](3_outputs/figures/seismic-restore.png)
+
+## Questions we can ask with Sensitivity Analysis 
+
+1. How does increasing seismic regeneration rates by X% affect risk estimates? 
+
+2. What proportion of seismic lines do we need to restore to reduce risk by X%? 
+
+3. How do different spatial arrangements of restoration affect risk estimates? 
+
+
+## A More Robust Tool 
+
+Estimate risks probabilistically 
+
+\ 
+
+Can test how different assumptions affect risk estimates  
+
+- Sensitivity analysis is *critical*
+
+***Uncertainty is OK!*** - as long as we account for it 
+
+![](3_outputs/figures/swth_decline.png) 
+
+
+
+## Risk Assessment -- because we can't predict the future
+
+\  
+
+### 1. Defining Risk
+
+-   Requires us to define an **‘unwanted outcome’** 
+
+\ 
+
+### 2. Decision-making context
+
+-   **Risk Tolerance:** The probability threshold below which we are unwilling to accept the negative outcomes of an action
+
+## Risk Avoidance 
+
+Regulatory Triggers 
+
+\ 
+
+Cost Control 
+
+\ 
+
+Social License 
+
+## Next Steps 
+
+1. Adapt simulations to the ABMI species models and use for automated predictions  
+\ 
+
+2. Update development to include new oil sands development: 
+New seismic lines, wells, processing facilities, roads, pipelines, etc…  
+\ 
+
+3. Look into developing more sophisticated habitat models 
+Include landscape context, population processes (colonization/extinction)
+
